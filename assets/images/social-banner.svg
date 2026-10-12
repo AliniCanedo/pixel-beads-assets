@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-label="PixelBeads Brasil Social Banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE1EF"/>
+      <stop offset="50%" stop-color="#E8F7FF"/>
+      <stop offset="100%" stop-color="#EBE3FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#7C6B99" flood-opacity=".25"/>
+    </filter>
+    <pattern id="pixels" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" rx="2" fill="#ffffff" opacity=".3"/>
+      <rect x="20" y="20" width="10" height="10" rx="2" fill="#ffffff" opacity=".2"/>
+    </pattern>
+  </defs>
+  <!-- Background -->
+  <rect width="100%" height="100%" rx="36" fill="url(#bg)"/>
+  <rect width="100%" height="100%" rx="36" fill="url(#pixels)"/>
+  
+  <!-- Central Glassmorphic Card -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="80" width="740" height="440" rx="40" fill="#ffffff" opacity=".9"/>
+  </g>
+  
+  <!-- Content -->
+  <!-- Floating beads for decoration -->
+  <g transform="translate(160, 160)">
+    <rect width="40" height="40" rx="10" fill="#FFB6D9"/>
+    <rect x="50" y="20" width="30" height="30" rx="8" fill="#C4B5E0"/>
+    <rect x="10" y="60" width="35" height="35" rx="9" fill="#B4E7F5"/>
+  </g>
+  <g transform="translate(680, 320)">
+    <rect width="35" height="35" rx="9" fill="#FFF4B0"/>
+    <rect x="-40" y="40" width="40" height="40" rx="10" fill="#FFB6D9"/>
+  </g>
+  
+  <text x="450" y="240" text-anchor="middle" font-size="140">✨</text>
+  <text x="450" y="360" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="56" font-weight="900" fill="#2C2C2C">PixelBeads Brasil</text>
+  <text x="450" y="415" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#8A66C9" letter-spacing="1">Hama Beads, Moldes e Pixel Art</text>
+  <text x="450" y="455" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#A19EAB">Aprenda, Crie e Monetize com Artesanato Digital</text>
+</svg>

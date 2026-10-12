@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="100%" height="100%">
+  <rect width="300" height="400" fill="#E8F5E9"/>
+  <text x="150" y="50" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="bold" fill="#2E7D32" text-anchor="middle">ANIMAIS E NATUREZA</text>
+  
+  <g transform="translate(75, 110)">
+    <path d="M45,0 h60 v30 h30 v60 h-120 v-60 h30 z" fill="#4CAF50"/>
+    <path d="M60,15 h30 v30 h-30 z" fill="#81C784"/>
+    <path d="M60,90 h30 v60 h-30 z" fill="#795548"/>
+  </g>
+  
+  <rect x="30" y="340" width="240" height="40" rx="10" fill="#A5D6A7"/>
+  <text x="150" y="365" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#1B5E20" text-anchor="middle">Criaturas Adoráveis</text>
+</svg>

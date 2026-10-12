@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Placeholder de molde">
+  <rect width="320" height="240" rx="20" ry="20" fill="#f5f4fb" />
+  <g fill="none" stroke="#a29bdf" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 72h160" />
+    <path d="M80 128h160" />
+    <path d="M80 184h160" />
+    <path d="M68 56v128" />
+    <path d="M252 56v128" />
+  </g>
+  <circle cx="160" cy="120" r="44" fill="#e6e1fb" stroke="#9582d5" stroke-width="8" />
+  <path d="M130 114h60" stroke="#7a6bc4" stroke-width="10" stroke-linecap="round" />
+  <path d="M160 94v52" stroke="#7a6bc4" stroke-width="10" stroke-linecap="round" />
+</svg>

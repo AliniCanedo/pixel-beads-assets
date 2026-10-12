@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="PixelBeads Logo">
+  <defs>
+    <linearGradient id="beadGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF8EBE"/>
+      <stop offset="100%" stop-color="#C4B5E0"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#7C6B99" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Beautiful stacked pixel beads for logo -->
+  <g filter="url(#glow)">
+    <!-- Top bead -->
+    <rect x="22" y="4" width="20" height="20" rx="6" fill="#C4B5E0"/>
+    <circle cx="32" cy="14" r="5" fill="#FFFFFF" opacity="0.6"/>
+    
+    <!-- Left bead -->
+    <rect x="8" y="24" width="20" height="20" rx="6" fill="#B4E7F5"/>
+    <circle cx="18" cy="34" r="5" fill="#FFFFFF" opacity="0.6"/>
+    
+    <!-- Right bead -->
+    <rect x="36" y="24" width="20" height="20" rx="6" fill="#FFF4B0"/>
+    <circle cx="46" cy="34" r="5" fill="#FFFFFF" opacity="0.6"/>
+    
+    <!-- Center bead (foreground) -->
+    <rect x="22" y="38" width="20" height="20" rx="6" fill="url(#beadGrad)"/>
+    <circle cx="32" cy="48" r="5" fill="#FFFFFF" opacity="0.8"/>
+  </g>
+</svg>

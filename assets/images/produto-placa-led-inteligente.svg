@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-label="Placa de Contas Inteligente LED para Hama Beads 2.6mm">
+  <defs>
+    <linearGradient id="bgLed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A102F"/>
+      <stop offset="50%" stop-color="#2D124D"/>
+      <stop offset="100%" stop-color="#0F0926"/>
+    </linearGradient>
+    <radialGradient id="neonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FF007F" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7928CA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glowFilter" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="ledGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="5" fill="#00F0FF" opacity="0.65"/>
+      <circle cx="14" cy="14" r="2.2" fill="#FFFFFF"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" rx="32" fill="url(#bgLed)"/>
+  
+  <!-- Ambient Neon Aura -->
+  <circle cx="450" cy="270" r="260" fill="url(#neonGlow)"/>
+
+  <!-- Main Board Frame -->
+  <g filter="url(#glowFilter)">
+    <rect x="230" y="80" width="440" height="340" rx="24" fill="#120D24" stroke="#00F0FF" stroke-width="4"/>
+  </g>
+
+  <!-- LED Pegboard Grid Surface -->
+  <rect x="250" y="100" width="400" height="300" rx="16" fill="#1B1438"/>
+  <rect x="250" y="100" width="400" height="300" rx="16" fill="url(#ledGrid)"/>
+
+  <!-- App Connection / Bluetooth Icon Badge -->
+  <g transform="translate(600, 105)">
+    <circle cx="20" cy="20" r="22" fill="#FF007F"/>
+    <path d="M15 12 L25 20 L20 24 L20 16 L25 20 L15 28" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Highlight Bead Heart in Pixels on the Board -->
+  <g transform="translate(415, 215)">
+    <!-- Pixel Heart in LED colors -->
+    <rect x="-42" y="-28" width="24" height="24" rx="4" fill="#FF1493" opacity="0.95"/>
+    <rect x="-14" y="-28" width="24" height="24" rx="4" fill="#FF1493" opacity="0.95"/>
+    <rect x="14" y="-28" width="24" height="24" rx="4" fill="#FF1493" opacity="0.95"/>
+    <rect x="42" y="-28" width="24" height="24" rx="4" fill="#FF1493" opacity="0.95"/>
+    <rect x="-56" y="0" width="24" height="24" rx="4" fill="#FF007F"/>
+    <rect x="-28" y="0" width="24" height="24" rx="4" fill="#00F0FF"/>
+    <rect x="0" y="0" width="24" height="24" rx="4" fill="#00F0FF"/>
+    <rect x="28" y="0" width="24" height="24" rx="4" fill="#00F0FF"/>
+    <rect x="56" y="0" width="24" height="24" rx="4" fill="#FF007F"/>
+    <rect x="-28" y="28" width="24" height="24" rx="4" fill="#FF007F"/>
+    <rect x="0" y="28" width="24" height="24" rx="4" fill="#00F0FF"/>
+    <rect x="28" y="28" width="24" height="24" rx="4" fill="#FF007F"/>
+    <rect x="0" y="56" width="24" height="24" rx="4" fill="#FF007F"/>
+  </g>
+
+  <!-- Badge 52% OFF -->
+  <g transform="translate(140, 110)">
+    <rect width="110" height="42" rx="21" fill="#FF0055"/>
+    <text x="55" y="27" text-anchor="middle" font-family="'Outfit', Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">52% OFF</text>
+  </g>
+
+  <!-- Typography -->
+  <text x="450" y="475" text-anchor="middle" font-family="'Outfit', Arial, sans-serif" font-size="34" font-weight="800" fill="#FFFFFF">Placa Inteligente LED 2.6mm</text>
+  <text x="450" y="515" text-anchor="middle" font-family="'Outfit', Arial, sans-serif" font-size="20" font-weight="600" fill="#00F0FF">Controlada por Aplicativo Bluetooth • Guia de Montagem Iluminado</text>
+  <text x="450" y="555" text-anchor="middle" font-family="'Outfit', Arial, sans-serif" font-size="22" font-weight="800" fill="#FFD700">Apenas R$ 96,10 na Shopee</text>
+</svg>
