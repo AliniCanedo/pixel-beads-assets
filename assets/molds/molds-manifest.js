@@ -864,6 +864,65 @@ window.moldsManifest = [
     files: {
       jpg: "https://www.pixelbeadsbrasil.com.br/assets/molds/aleatorios/abacate.jpeg"
     }
+  },
+  {
+    id: "noite-estrelada-van-gogh",
+    title: "A Noite Estrelada de Van Gogh",
+    collection: "Arte",
+    collectionSlug: "arte",
+    category: "Arte",
+    difficulty: "Difícil",
+    beads: "672–2.752",
+    time: "45 min–4 h",
+    colors: [
+      "Creme",
+      "Branco",
+      "Azul Claro",
+      "Azul Pastel",
+      "Bege",
+      "Cinza Claro",
+      "Prata",
+      "Azul",
+      "Preto",
+      "Cinza",
+      "Verde Pastel",
+      "Azul Marinho",
+      "Marrom Claro",
+      "Azul Celeste",
+      "Cinza Escuro",
+      "Pele",
+      "Amarelo",
+      "Amarelo Claro",
+      "Ouro"
+    ],
+    colorHexes: {
+      "Creme": "#F5E6C8",
+      "Branco": "#FFFFFF",
+      "Azul Claro": "#87CEEB",
+      "Azul Pastel": "#A6D2D8",
+      "Bege": "#F5DEB3",
+      "Cinza Claro": "#BDBDBD",
+      "Prata": "#C0C0C0",
+      "Azul": "#4169E1",
+      "Preto": "#171717",
+      "Cinza": "#808080",
+      "Verde Pastel": "#A8F0A6",
+      "Azul Marinho": "#00008B",
+      "Marrom Claro": "#D2B48C",
+      "Azul Celeste": "#7FCDE7",
+      "Cinza Escuro": "#555555",
+      "Pele": "#FFD7B3",
+      "Amarelo": "#FFD700",
+      "Amarelo Claro": "#FFFACD",
+      "Ouro": "#DDAA22"
+    },
+    files: {
+      png: "https://raw.githubusercontent.com/AliniCanedo/pixel-beads-assets/main/moldes/arte/noite-molde-hama-beads-64x43.png",
+      preview: "https://raw.githubusercontent.com/AliniCanedo/pixel-beads-assets/main/moldes/arte/noite-molde-hama-beads-32x21.png",
+      "32x21": "https://raw.githubusercontent.com/AliniCanedo/pixel-beads-assets/main/moldes/arte/noite-molde-hama-beads-32x21.png",
+      "48x32": "https://raw.githubusercontent.com/AliniCanedo/pixel-beads-assets/main/moldes/arte/noite-molde-hama-beads-48x32.png",
+      "64x43": "https://raw.githubusercontent.com/AliniCanedo/pixel-beads-assets/main/moldes/arte/noite-molde-hama-beads-64x43.png"
+    }
   }
 ];
 
